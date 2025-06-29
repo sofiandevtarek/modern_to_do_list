@@ -215,6 +215,9 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: showTheBox,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadiusGeometry.circular(100),
+        ),
         backgroundColor: Colors.black,
         child: Icon(Icons.add, color: Colors.white),
       ),
